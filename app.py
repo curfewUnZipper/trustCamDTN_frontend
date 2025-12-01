@@ -13,7 +13,7 @@ from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives.asymmetric.utils import decode_dss_signature
 
-API = "http://localhost:5000"  # Flask backend
+API = "https://trustcamdtn.onrender.com/"  # Flask backend
 
 # --- MUST MATCH BACKEND ---
 AES_KEY = b'\x15\x2B\x4C\x0C\x5A\x16\x0B\x36\x63\x20\x13\xC8\x2C\x37\x42\x4D'
